@@ -1,4 +1,5 @@
 import Menu from '../menu/menu';
+import bassIcon from '../resources/bass.png';
 import strings from '../resources/strings';
 import skyImage from '../resources/sky.png';
 import fieldsImage from '../resources/fields.png';
@@ -12,25 +13,25 @@ function Performer(props: {
     function positionToIcon(position: string) {
         switch (position) {
             case 'vocal':
-                return '🎤';
+                return <span>🎤</span>;
             case 'guitar':
-                return '🎸';
+                return <span>🎸</span>;
             case 'bass':
-                return '🎸';
+                return <img src={bassIcon} className="h-5 w-5"/>;
             case 'drums':
-                return '🥁';
+                return <span>🥁</span>;
             case 'keyboard':
-                return '🎹';
+                return <span>🎹</span>;
             default:
-                return '';
+                return <></>;
         }
     }
 
     const { position, performerId } = props;
     const performer = performersJson.find(p => p.id === performerId);
     return (performer &&
-        (<div className="text-md bg-background text-on-primary rounded-full px-2 py-1 font-serif">
-            {positionToIcon(position) + ' '}
+        (<div className="text-md bg-background text-on-primary rounded-full px-2 py-1 font-serif flex gap-1 items-center">
+            {positionToIcon(position)}
             {
                 performer.link ?
                     <a href={performer.link} className="underline text-on-primary-variant" target="_blank">{performer.name}</a>

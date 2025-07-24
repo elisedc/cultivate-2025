@@ -17,7 +17,7 @@ export function Welcome() {
       <img src={fieldsImage} alt="Fields" className="absolute w-full h-full object-cover animate-fields-brighten" />
       <img src={notesImage} alt="Notes" className="absolute w-full h-full right-0 object-cover object-right animate-notes-sweep" />
 
-      <div className="absolute top-1/2 md:left-12 transform -translate-y-12 flex flex-col items-center md:items-start gap-4 not-md:w-screen">
+      <div className="absolute top-1/2 md:left-12 transform -translate-y-24 flex flex-col items-center md:items-start gap-6 not-md:w-screen">
         {/* Title */}
         <div className="flex flex-col items-start gap-1">
           <h1 className="text-7xl md:text-9xl text-center text-on-primary opacity-0 animate-fade-up">

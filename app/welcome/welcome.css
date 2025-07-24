@@ -1,0 +1,52 @@
+:root {
+    --animation-duration: 0.8s;
+    --animation-duration-long: 1.5s;
+}
+
+@keyframes brighten {
+    from {
+        filter: brightness(0.5) contrast(0.7);
+    }
+
+    to {
+        filter: brightness(1) contrast(1);
+    }
+}
+
+@keyframes sunrise {
+    from {
+        transform: translateY(150px);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes notesSweep {
+    from {
+        clip-path: inset(0 100% 0 0);
+        opacity: 0.5;
+    }
+
+    to {
+        clip-path: inset(0 0 0 0);
+        opacity: 1;
+    }
+}
+
+.animate-fields-brighten {
+    animation: brighten var(--animation-duration-long) ease-out forwards;
+}
+
+.animate-notes-sweep {
+    animation: notesSweep 1.2s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+.animate-sky-brighten {
+    animation: brighten var(--animation-duration) ease-out forwards;
+}
+
+.animate-sunrise {
+    animation: sunrise var(--animation-duration) ease-out forwards;
+}

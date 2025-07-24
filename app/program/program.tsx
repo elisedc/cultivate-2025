@@ -91,15 +91,13 @@ export default function Program() {
     return (
         <main className="relative w-screen h-screen overflow-hidden">
             <img src={skyImage} alt="Sky" className="absolute w-full h-full object-cover" />
-            <div className="absolute top-0 flex flex-col items-center justify-center w-full h-full">
-                <h1 className="text-5xl text-center text-on-primary mt-8 mb-4">
+            <div className="absolute w-full h-full overflow-y-auto flex flex-col">
+                <h1 className="text-5xl lg:text-7xl text-center text-on-primary m-8 mb-4">
                     {strings.eventFullName} — {strings.program}
                 </h1>
-                <div className="w-full h-full overflow-y-auto">
-                    {songsJson.map((songInfo, index) => (
-                        <Song key={index} song={songInfo} index={index} />))}
-                    <img src={fieldsImage} alt="Fields" className="object-contain -mt-28 pointer-events-none" />
-                </div>
+                {songsJson.map((songInfo, index) => (
+                    <Song key={index} song={songInfo} index={index} />))}
+                <img src={fieldsImage} alt="Fields" className="object-contain -mt-28 pointer-events-none" />
             </div>
         </main>
 

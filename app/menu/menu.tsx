@@ -15,7 +15,7 @@ const menuItems = [
 
 function MenuItems(props: { open: boolean, closeMenu: () => void }) {
     return (
-        <div className={`absolute top-0 left-0 w-svw h-svh bg-menu-background flex flex-col gap-12 items-center justify-center ${props.open ? "fade-in" : "fade-out"}`}>
+        <div className={`fixed top-0 left-0 w-svw h-svh bg-menu-background flex flex-col gap-12 items-center justify-center ${props.open ? "fade-in" : "fade-out"}`}>
             {
                 menuItems.map((item, index) => (
                     <Link to={item.link} key={index} onClick={props.closeMenu}>

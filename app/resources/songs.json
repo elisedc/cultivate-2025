@@ -21,8 +21,8 @@
         "performers": [
             ["vocal", "roo"],
             ["guitar", "che"],
-            ["guitar", "hsu"],
             ["keyboard", "mel"],
+            ["bass", "hsu"],
             ["drums", "sio"]
         ]
     },

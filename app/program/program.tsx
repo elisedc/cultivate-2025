@@ -55,7 +55,7 @@ function Song(props: {
         <div className="mx-4">
             <div className="flex items-center gap-8 p-4 my-1">
                 {/* Song order */}
-                <h1 className="text-6xl text-on-primary font-bold w-16 text-end">
+                <h1 className="text-6xl text-on-primary font-bold w-16 text-center flex-shrink-0">
                     {index + 1}
                 </h1>
                 <div className="flex flex-col items-start">

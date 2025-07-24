@@ -8,9 +8,9 @@
             ["vocal", "roo"],
             ["guitar", "shh"],
             ["guitar", "sht"],
-            ["drums", "dog"],
+            ["keyboard", "mel"],
             ["bass", "wuc"],
-            ["keyboard", "mel"]
+            ["drums", "dog"]
         ]
     },
     {
@@ -22,8 +22,8 @@
             ["vocal", "roo"],
             ["guitar", "che"],
             ["guitar", "hsu"],
-            ["drums", "sio"],
-            ["keyboard", "mel"]
+            ["keyboard", "mel"],
+            ["drums", "sio"]
         ]
     },
     {
@@ -74,6 +74,203 @@
             ["guitar", "pan"],
             ["bass", "lim"],
             ["drums", "lic"]
+        ]
+    },
+    {
+        "name": "In the End",
+        "artist": "Linkin Park",
+        "bandName": "搖滾公園",
+        "performers": [
+            ["vocal", "pau"],
+            ["vocal", "wei"],
+            ["guitar", "daw"],
+            ["guitar", "wuh"],
+            ["keyboard", "daw"],
+            ["bass", "won"],
+            ["drums", "hon"]
+        ]
+    },
+    {
+        "name": "Sparkle",
+        "artist": "山下達郎",
+        "bandName": "週末の不務正樂",
+        "performers": [
+            ["vocal/guitar", "yum"],
+            ["keyboard", "mel"],
+            ["bass", "hsu"],
+            ["drums", "wei"]
+        ]
+    },
+    {
+        "name": "Flyday Chinatown",
+        "artist": "Yasuha",
+        "bandName": "週末の不務正樂",
+        "performers": [
+            ["vocal/guitar", "yum"],
+            ["guitar", "den"],
+            ["keyboard", "mel"],
+            ["bass", "hsu"],
+            ["drums", "wei"]
+        ]
+    },
+    {
+        "name": "青春病",
+        "artist": "藤井風",
+        "bandName": "週末の不務正樂",
+        "performers": [
+            ["vocal", "sha"],
+            ["guitar", "yum"],
+            ["keyboard", "mel"],
+            ["bass", "way"],
+            ["drums", "wei"]
+        ]
+    },
+    {
+        "name": "2103 公里之間",
+        "artist": "icyball 冰球樂團",
+        "bandName": "週末の不務正樂",
+        "performers": [
+            ["vocal", "yeh"],
+            ["guitar", "den"],
+            ["guitar", "yum"],
+            ["keyboard", "mel"],
+            ["bass", "hsu"],
+            ["drums", "wan"]
+        ]
+    },
+    {
+        "name": "伊的身邊已經有別人",
+        "artist": "許富凱 X 血肉果汁機",
+        "bandName": "野蠻救星",
+        "performers": [
+            ["vocal", "pau"],
+            ["vocal", "fan"],
+            ["guitar", "szu"],
+            ["guitar", "jia"],
+            ["keyboard", "roo"],
+            ["bass", "whu"],
+            ["drums", "dog"]
+        ]
+    },
+    {
+        "name": "I Want My Tears Back",
+        "artist": "Nightwish",
+        "bandName": "冰島伏特加",
+        "performers": [
+            ["vocal", "mel"],
+            ["guitar/vocal", "che"],
+            ["keyboard", "daw"],
+            ["bass", "mon"],
+            ["drums", "dog"]
+        ]
+    },
+    {
+        "name": "BanG Dream!",
+        "artist": "Ave Mujica",
+        "bandName": "夢想家 Dream walker",
+        "performers": [
+            ["vocal", "mel"],
+            ["guitar", "szu"],
+            ["guitar", "jia"],
+            ["keyboard", "yis"],
+            ["bass", "fan"],
+            ["drums", "wei"]
+        ]
+    },
+    {
+        "name": "春泥棒",
+        "artist": "ヨルシカ",
+        "bandName": "玫瑰小姐",
+        "performers": [
+            ["vocal", "wan"],
+            ["guitar", "zhy"],
+            ["guitar", "sht"],
+            ["keyboard", "yis"],
+            ["bass", "hsu"],
+            ["drums", "wei"]
+        ]
+    },
+    {
+        "name": "共生",
+        "artist": "王艷薇",
+        "bandName": "奇異果樂團",
+        "performers": [
+            ["vocal", "wen"],
+            ["guitar", "yan"],
+            ["keyboard", "daw"],
+            ["bass", "tan"],
+            ["drums", "zin"]
+        ]
+    },
+    {
+        "name": "你給過我的快樂",
+        "artist": "胡凱兒",
+        "bandName": "廢物先生",
+        "performers": [
+            ["vocal", "lic"],
+            ["guitar", "shy"],
+            ["bass", "zhe"],
+            ["drums", "may"]
+        ]
+    },
+    {
+        "name": "Bunny Girl",
+        "artist": "AKASAKI",
+        "bandName": "城市旅人 city traveller",
+        "performers": [
+            ["vocal", "sha"],
+            ["guitar", "shy"],
+            ["bass", "tan"],
+            ["drums", "woj"]
+        ]
+    },
+    {
+        "name": "Die With A Smile",
+        "artist": "Lady Gaga / Bruno Mars",
+        "bandName": "月影探險家",
+        "performers": [
+            ["vocal/guitar", "cha"],
+            ["vocal", "wan"],
+            ["guitar", "chw"],
+            ["bass", "tan"],
+            ["drums", "zin"]
+        ]
+    },
+    {
+        "name": "Beautiful Things",
+        "artist": "Benson Boone",
+        "bandName": "南方公園",
+        "performers": [
+            ["vocal", "cha"],
+            ["guitar", "daw"],
+            ["guitar", "sht"],
+            ["drums", "bei"]
+        ]
+    },
+    {
+        "name": "Bed of Roses",
+        "artist": "Bon Jovi",
+        "bandName": "南方公園",
+        "performers": [
+            ["vocal", "woj"],
+            ["guitar", "daw"],
+            ["guitar", "che"],
+            ["keyboard", "daw"],
+            ["drums", "bei"]
+        ]
+    },
+    {
+        "name": "布団の中から出たくない",
+        "artist": "打首獄門同好會",
+        "translatedName": "不想離開被窩",
+        "bandName": "無樂遊民",
+        "performers": [
+            ["vocal", "sha"],
+            ["vocal", "roo"],
+            ["vocal/drums", "wei"],
+            ["vocal", "yeh"],
+            ["guitar", "den"],
+            ["bass", "hsu"]
         ]
     }
 ]

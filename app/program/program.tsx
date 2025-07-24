@@ -13,17 +13,17 @@ function Performer(props: {
     function positionToIcon(position: string) {
         switch (position) {
             case 'vocal':
-                return <span>🎤</span>;
+                return <span key={position}>🎤</span>;
             case 'guitar':
-                return <span>🎸</span>;
+                return <span key={position}>🎸</span>;
             case 'bass':
-                return <img src={bassIcon} className="h-5 w-5"/>;
+                return <img key={position} src={bassIcon} className="h-5 w-5" />;
             case 'drums':
-                return <span>🥁</span>;
+                return <span key={position}>🥁</span>;
             case 'keyboard':
-                return <span>🎹</span>;
+                return <span key={position}>🎹</span>;
             default:
-                return <></>;
+                return undefined;
         }
     }
 
@@ -31,7 +31,7 @@ function Performer(props: {
     const performer = performersJson.find(p => p.id === performerId);
     return (performer &&
         (<div className="text-md bg-background text-on-primary rounded-full px-2 py-1 font-serif flex gap-1 items-center">
-            {positionToIcon(position)}
+            {position.split('/').map(positionToIcon)}
             {
                 performer.link ?
                     <a href={performer.link} className="underline text-on-primary-variant" target="_blank">{performer.name}</a>
@@ -55,7 +55,7 @@ function Song(props: {
         <div className="mx-4">
             <div className="flex items-center gap-8 p-4 my-1">
                 {/* Song order */}
-                <h1 className="text-6xl text-on-primary font-bold">
+                <h1 className="text-6xl text-on-primary font-bold w-16 text-end">
                     {index + 1}
                 </h1>
                 <div className="flex flex-col items-start">
@@ -76,7 +76,7 @@ function Song(props: {
                         <div className="text-md bg-primary-variant text-background rounded-full px-2 py-1 font-serif">
                             {song.bandName}
                         </div>
-                        {song.performers.map(([position, performerId]) => (
+                        {Array.isArray(song.performers) && song.performers.map(([position, performerId]) => (
                             <Performer
                                 key={position + '-' + performerId}
                                 position={position}

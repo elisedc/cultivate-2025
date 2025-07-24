@@ -29,7 +29,7 @@ function MenuItems(props: { open: boolean, closeMenu: () => void }) {
     );
 }
 
-export default function Menu() {
+export default function Menu(props: { style?: 'light' | 'dark' }) {
     const [open, setOpen] = useState(false);
 
     function toggleMenu() {
@@ -38,12 +38,17 @@ export default function Menu() {
 
     return (
         <>
-            <MenuItems open={open} closeMenu={() => {setOpen(false)}} />
+            <MenuItems open={open} closeMenu={() => { setOpen(false) }} />
             <div className="fixed top-8 left-8 w-12 h-12">
                 <img
                     src={open ? menuClose : menu}
                     alt="Menu Toggle"
-                    className={`w-full h-full cursor-pointer transition-transform duration-500 ${open ? "spin-open" : "spin-close"}`}
+                    className={`
+                        w-full h-full cursor-pointer
+                        transition-transform duration-500
+                        ${open ? "spin-open" : "spin-close"}
+                        ${(!open && props.style === 'dark') ? 'icon-dark' : ''}
+                        `}
                     onClick={toggleMenu}
                 />
             </div>

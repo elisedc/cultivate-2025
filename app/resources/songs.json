@@ -8,6 +8,7 @@
             ["guitar", "shh"],
             ["guitar", "sht"],
             ["drums", "dog"],
+            ["bass", "wuc"],
             ["keyboard", "mel"]
         ]
     },
@@ -30,9 +31,9 @@
             ["vocal", "yeh"],
             ["guitar", "sht"],
             ["guitar", "che"],
+            ["keyboard", "mel"],
             ["bass", "zhe"],
-            ["drums", "dog"],
-            ["keyboard", "mel"]
+            ["drums", "dog"]
         ]
     },
     {
@@ -43,9 +44,30 @@
             ["vocal", "yis"],
             ["guitar", "szu"],
             ["guitar", "sht"],
+            ["keyboard", "mel"],
             ["bass", "whu"],
-            ["drums", "dog"],
-            ["keyboard", "mel"]
+            ["drums", "dog"]
+        ]
+    },
+    {
+        "name": "藍二乘",
+        "artist": "ヨルシカ",
+        "performers": [
+            ["vocal", "yis"],
+            ["guitar", "shh"],
+            ["keyboard", "daw"],
+            ["bass", "mon"],
+            ["drums", "may"]
+        ]
+    },
+    {
+        "name": "We are",
+        "artist": "ONE OK ROCK",
+        "performers": [
+            ["vocal", "wei"],
+            ["guitar", "pan"],
+            ["bass", "lim"],
+            ["drums", "lic"]
         ]
     }
 ]

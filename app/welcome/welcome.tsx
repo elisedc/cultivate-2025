@@ -1,9 +1,9 @@
-import skyImage from './sky.png';
-import sunImage from './sun.png';
-import fieldsImage from './fields.png';
-import notesImage from './notes.png';
-
 import './welcome.css';
+
+import skyImage from '../resources/sky.png';
+import sunImage from '../resources/sun.png';
+import fieldsImage from '../resources/fields.png';
+import notesImage from '../resources/notes.png';
 
 export function Welcome() {
   return (

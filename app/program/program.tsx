@@ -89,11 +89,13 @@ function Song(props: {
 
 export default function Program() {
     return (
-        <main className="relative w-screen h-screen overflow-hidden">
-            <img src={skyImage} alt="Sky" className="absolute w-full h-full object-cover" />
+        <main style={{'backgroundImage': `url(${skyImage})`}} className="relative w-screen h-screen overflow-hidden bg-cover bg-center">
             <div className="absolute w-full h-full overflow-y-auto flex flex-col">
-                <h1 className="text-5xl lg:text-7xl text-center text-on-primary m-8 mb-4">
-                    {strings.eventFullName} — {strings.program}
+                <h3 className="text-2xl lg:text-3xl text-on-primary-variant text-center mt-8 mb-2">
+                    {strings.eventFullName}
+                </h3>
+                <h1 className="text-5xl lg:text-7xl text-center text-on-primary mb-4">
+                    {strings.program}
                 </h1>
                 {songsJson.map((songInfo, index) => (
                     <Song key={index} song={songInfo} index={index} />))}

@@ -59,7 +59,7 @@ function Song(props: {
                 </h1>
                 <div className="flex flex-col items-start">
                     {/* Song name & artist */}
-                    <h2 className="text-2xl font-bold text-on-primary">
+                    <h2 className="text-2xl text-on-primary">
                         {song.name}
                         {
                             song.translatedName && (

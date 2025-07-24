@@ -99,7 +99,7 @@ export default function Program() {
                 </h1>
                 {songsJson.map((songInfo, index) => (
                     <Song key={index} song={songInfo} index={index} />))}
-                <img src={fieldsImage} alt="Fields" className="object-contain pointer-events-none" />
+                <img src={fieldsImage} alt="Fields" className="object-contain -mt-28 pointer-events-none" />
             </div>
         </main>
 

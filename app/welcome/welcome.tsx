@@ -2,6 +2,7 @@ import { Link } from 'react-router';
 
 import './welcome.css';
 
+import Menu from '../menu/menu';
 import strings from '../resources/strings';
 import skyImage from '../resources/sky.png';
 import sunImage from '../resources/sun.png';
@@ -17,21 +18,34 @@ export function Welcome() {
       <img src={notesImage} alt="Notes" className="absolute w-full h-full right-0 object-cover object-right animate-notes-sweep" />
 
       <div className="absolute top-1/2 md:left-12 transform -translate-y-12 flex flex-col items-center md:items-start gap-4 not-md:w-screen">
-        <h1 className="text-7xl md:text-9xl text-center text-on-primary opacity-0 animate-fade-up">
-          {strings.eventName}
-        </h1>
-        <h3 className="text-3xl md:text-4xl text-center text-on-primary-variant opacity-0 animate-fade-up-delay-1">
-          {strings.eventEngFullName}
-        </h3>
-        <Link to="/program">
-          <button
-            className="bg-background text-on-primary font-serif rounded-full text-2xl transition hover:brightness-105 p-4 opacity-0 animate-fade-up-delay-1 cursor-pointer"
-          >
-            {strings.readProgram}
-          </button>
-        </Link>
+        {/* Title */}
+        <div className="flex flex-col items-start gap-1">
+          <h1 className="text-7xl md:text-9xl text-center text-on-primary opacity-0 animate-fade-up">
+            {strings.eventName}
+          </h1>
+          <h3 className="text-3xl md:text-4xl text-center text-on-primary-variant opacity-0 animate-fade-up-delay-1">
+            {strings.eventEngFullName}
+          </h3>
+        </div>
+        {/* Links to other pages */}
+        <div className="flex flex-col md:flex-row items-center gap-4">
+          <Link to="/program">
+            <button
+              className="bg-background text-on-primary font-serif rounded-full text-2xl transition hover:brightness-105 p-4 opacity-0 animate-fade-up-delay-1 cursor-pointer"
+            >
+              {strings.readProgram}
+            </button>
+          </Link>
+          <Link to="/information">
+            <button
+              className="bg-on-primary text-information font-serif rounded-full text-2xl transition hover:brightness-105 p-4 opacity-0 animate-fade-up-delay-1 cursor-pointer"
+            >
+              {strings.readInformation}
+            </button>
+          </Link>
+        </div>
       </div>
-
+      <Menu />
     </main >
   );
 }

@@ -1,0 +1,1 @@
+const e="2025",s=`耕耘祭 ${e}`,n="Cultivate",a=`${n} ${e}`,o="首頁",c="演出資訊",t="節目表",m=`查看${t}`,r={eventName:"耕耘祭",eventFullName:s,eventEngFullName:a,homePage:o,information:c,program:t,readProgram:m},g="/cultivate-2025/assets/sky-Db0qrc6G.png",v="/cultivate-2025/assets/fields-DmR-rWRU.png";export{r as a,v as f,g as s};

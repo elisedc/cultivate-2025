@@ -105,10 +105,10 @@ const route0 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProper
   default: root,
   links
 }, Symbol.toStringTag, { value: "Module" }));
-const skyImage = "/assets/sky-DP69Ds-w.png";
-const sunImage = "/assets/sun-DPKRiclb.png";
-const fieldsImage = "/assets/fields-DmR-rWRU.png";
-const notesImage = "/assets/notes-B7TCQge3.png";
+const skyImage = "/cultivate-2025/assets/sky-DP69Ds-w.png";
+const sunImage = "/cultivate-2025/assets/sun-DPKRiclb.png";
+const fieldsImage = "/cultivate-2025/assets/fields-DmR-rWRU.png";
+const notesImage = "/cultivate-2025/assets/notes-B7TCQge3.png";
 function Welcome() {
   return /* @__PURE__ */ jsxs("main", { className: "relative w-screen h-screen overflow-hidden", children: [
     /* @__PURE__ */ jsx("img", { src: skyImage, alt: "Sky", className: "absolute w-full h-full object-cover animate-sky-brighten" }),
@@ -143,15 +143,15 @@ const route1 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProper
   default: home,
   meta
 }, Symbol.toStringTag, { value: "Module" }));
-const serverManifest = { "entry": { "module": "/assets/entry.client-Cwn7YiHZ.js", "imports": ["/assets/chunk-EF7DTUVF-B8hWlioN.js"], "css": [] }, "routes": { "root": { "id": "root", "parentId": void 0, "path": "", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasErrorBoundary": true, "module": "/assets/root-DJihVn4u.js", "imports": ["/assets/chunk-EF7DTUVF-B8hWlioN.js"], "css": ["/assets/root-B37GU61E.css"], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 }, "routes/home": { "id": "routes/home", "parentId": "root", "path": void 0, "index": true, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasErrorBoundary": false, "module": "/assets/home-B9id_5np.js", "imports": ["/assets/chunk-EF7DTUVF-B8hWlioN.js"], "css": ["/assets/home-CEsUbFMT.css"], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 } }, "url": "/assets/manifest-20313877.js", "version": "20313877", "sri": void 0 };
+const serverManifest = { "entry": { "module": "/cultivate-2025assets/entry.client-Cwn7YiHZ.js", "imports": ["/cultivate-2025assets/chunk-EF7DTUVF-B8hWlioN.js"], "css": [] }, "routes": { "root": { "id": "root", "parentId": void 0, "path": "", "index": void 0, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasErrorBoundary": true, "module": "/cultivate-2025assets/root-DJihVn4u.js", "imports": ["/cultivate-2025assets/chunk-EF7DTUVF-B8hWlioN.js"], "css": ["/cultivate-2025assets/root-B37GU61E.css"], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 }, "routes/home": { "id": "routes/home", "parentId": "root", "path": void 0, "index": true, "caseSensitive": void 0, "hasAction": false, "hasLoader": false, "hasClientAction": false, "hasClientLoader": false, "hasClientMiddleware": false, "hasErrorBoundary": false, "module": "/cultivate-2025assets/home-CMu-ck4F.js", "imports": ["/cultivate-2025assets/chunk-EF7DTUVF-B8hWlioN.js"], "css": ["/cultivate-2025assets/home-CEsUbFMT.css"], "clientActionModule": void 0, "clientLoaderModule": void 0, "clientMiddlewareModule": void 0, "hydrateFallbackModule": void 0 } }, "url": "/cultivate-2025assets/manifest-b19e580f.js", "version": "b19e580f", "sri": void 0 };
 const assetsBuildDirectory = "build/client";
-const basename = "/";
+const basename = "/cultivate-2025";
 const future = { "unstable_middleware": false, "unstable_optimizeDeps": false, "unstable_splitRouteModules": false, "unstable_subResourceIntegrity": false, "unstable_viteEnvironmentApi": false };
 const ssr = true;
 const isSpaMode = false;
 const prerender = [];
 const routeDiscovery = { "mode": "lazy", "manifestPath": "/__manifest" };
-const publicPath = "/";
+const publicPath = "/cultivate-2025";
 const entry = { module: entryServer };
 const routes = {
   "root": {

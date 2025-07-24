@@ -1,5 +1,8 @@
+import { Link } from 'react-router';
+
 import './welcome.css';
 
+import strings from '../resources/strings';
 import skyImage from '../resources/sky.png';
 import sunImage from '../resources/sun.png';
 import fieldsImage from '../resources/fields.png';
@@ -15,16 +18,18 @@ export function Welcome() {
 
       <div className="absolute top-1/2 md:left-12 transform -translate-y-12 flex flex-col items-center md:items-start gap-4 not-md:w-screen">
         <h1 className="text-7xl md:text-9xl text-center text-on-primary opacity-0 animate-fade-up">
-          耕耘季
+          {strings.eventName}
         </h1>
         <h3 className="text-3xl md:text-4xl text-center text-on-primary-variant opacity-0 animate-fade-up-delay-1">
-          Cultivate 2025
+          {strings.eventEngFullName}
         </h3>
-        <button
-          className="bg-background text-on-primary font-serif rounded-full text-2xl transition hover:brightness-105 p-4 opacity-0 animate-fade-up-delay-1"
-        >
-          查看節目表
-        </button>
+        <Link to="/program">
+          <button
+            className="bg-background text-on-primary font-serif rounded-full text-2xl transition hover:brightness-105 p-4 opacity-0 animate-fade-up-delay-1"
+          >
+            {strings.readProgram}
+          </button>
+        </Link>
       </div>
 
     </main >

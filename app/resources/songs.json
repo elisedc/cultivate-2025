@@ -1,0 +1,24 @@
+[
+    {
+        "name": "だから僕わ音がを辞めだ",
+        "artist": "ヨルシカ",
+        "performers": {
+            "vocal": "roo",
+            "guitar": "shuhsiang",
+            "guitar2": "shuting",
+            "drums": "dogwang",
+            "keyboard": "melody"
+        }
+    },
+    {
+        "name": "夜にかける",
+        "artist": "YOASOBI",
+        "performers": {
+            "vocal": "roo",
+            "guitar": "chen",
+            "guitar2": "hsuande",
+            "drums": "siou",
+            "keyboard": "melody"
+        }
+    }
+]

@@ -26,6 +26,7 @@ You may need to wait a few minutes before the site is updated. (Check "Settings 
 - Project created with [React Router](https://reactrouter.com/start/framework/installation)
 - Hosted on [GitHub Pages](https://pages.github.com/)
 - Deployment: [`gh-pages`](https://www.npmjs.com/package/gh-pages)
+- _Note_: GitHub Pages doesn't support routing for single-page apps, so we need to bypass this by copying `index.html` to `404.html` during `npm run deploy` (see [this page](https://github.com/rafgraph/spa-github-pages)).
 
 ### Resources
 

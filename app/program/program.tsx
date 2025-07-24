@@ -2,30 +2,105 @@ import strings from '../resources/strings';
 import skyImage from '../resources/sky.png';
 import fieldsImage from '../resources/fields.png';
 import songsJson from '../resources/songs.json';
+import performersJson from '../resources/performers.json';
+
+function Performer(props: {
+    position: string,
+    performerId: string
+}) {
+    function positionToIcon(position: string) {
+        switch (position) {
+            case 'vocal':
+                return '🎤';
+            case 'guitar':
+                return '🎸';
+            case 'bass':
+                return '🎸';
+            case 'drums':
+                return '🥁';
+            case 'keyboard':
+                return '🎹';
+            default:
+                return '';
+        }
+    }
+
+    const { position, performerId } = props;
+    const performer = performersJson.find(p => p.id === performerId);
+    return (performer &&
+        (<div className="text-md text-on-primary-variant bg-background rounded-full px-2 py-1 font-serif">
+            {positionToIcon(position) + ' '}
+            {
+                performer.link ?
+                    <a href={performer.link} className="underline" target="_blank">{performer.name}</a>
+                    : performer.name
+            }
+        </div>)
+    );
+}
+
+function Song(props: {
+    song: {
+        name: string;
+        translatedName?: string;
+        artist: string;
+        performers: string[][];
+    }, index: number
+}) {
+    const { song, index } = props;
+    return (
+        <div className="mx-4">
+            <div className="flex items-center gap-8 p-4 my-1">
+                {/* Song order */}
+                <h1 className="text-6xl text-on-primary font-bold">
+                    {index + 1}
+                </h1>
+                <div>
+                    {/* Song name & artist */}
+                    <h2 className="text-2xl font-bold text-on-primary">
+                        {song.name}
+                        {
+                            song.translatedName && (
+                                <span className="text-xl font-normal text-on-primary-variant">
+                                    （{song.translatedName}）
+                                </span>
+                            )
+                        }
+                    </h2>
+                    <p className="text-lg text-on-primary-variant">{song.artist}</p>
+                    {/* Performers */}
+                    <div className="flex flex-wrap gap-2 mt-2">
+                        {song.performers.map(([position, performerId]) => (
+                            <Performer
+                                key={position + '-' + performerId}
+                                position={position}
+                                performerId={performerId}
+                            />
+                        ))}
+                    </div>
+                </div>
+            </div>
+            {index < songsJson.length - 1 && (
+                <hr className="border-t border-on-primary-variant opacity-30" />
+            )}
+        </div>
+    )
+}
 
 export default function Program() {
     return (
         <main className="relative w-screen h-screen overflow-hidden">
             <img src={skyImage} alt="Sky" className="absolute w-full h-full object-cover" />
-            <div className="absolute w-full h-full overflow-y-auto">
-                <h1 className="text-5xl text-center text-on-primary m-8">
+            <div className="absolute top-0 flex flex-col items-center justify-center w-full h-full">
+                <h1 className="text-5xl text-center text-on-primary mt-8 mb-4">
                     {strings.eventFullName} — {strings.program}
                 </h1>
-                {
-                    songsJson.map((song, index) => (
-                        <div key={index} className="mx-4">
-                            <div className="p-4 my-1">
-                                <h2 className="text-2xl font-bold text-on-primary">{song.name}</h2>
-                                <p className="text-lg text-on-primary-variant">{song.artist}</p>
-                            </div>
-                            {index < songsJson.length - 1 && (
-                                <hr className="border-t border-on-primary-variant" />
-                            )}
-                        </div>
-                    ))
-                }
+                <div className="w-full h-full overflow-y-auto">
+                    {songsJson.map((songInfo, index) => (
+                        <Song key={index} song={songInfo} index={index} />))}
+                    <img src={fieldsImage} alt="Fields" className="object-contain -mt-28 pointer-events-none" />
+                </div>
             </div>
-            <img src={fieldsImage} alt="Fields" className="absolute bottom-0 object-contain md:object-cover md:w-full md:h-full transform translate-y-20 md:translate-y-56 pointer-events-none" />
         </main>
 
     )

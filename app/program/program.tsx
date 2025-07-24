@@ -89,8 +89,8 @@ function Song(props: {
 
 export default function Program() {
     return (
-        <main style={{'backgroundImage': `url(${skyImage})`}} className="relative w-screen h-screen overflow-hidden bg-cover bg-center">
-            <div className="absolute w-full h-full overflow-y-auto flex flex-col">
+        <main style={{'backgroundImage': `url(${skyImage})`}} className="relative w-screen h-screen overflow-y-auto bg-cover bg-center">
+            <div className="absolute w-full h-full flex flex-col">
                 <h3 className="text-2xl lg:text-3xl text-on-primary-variant text-center mt-8 mb-2">
                     {strings.eventFullName}
                 </h3>

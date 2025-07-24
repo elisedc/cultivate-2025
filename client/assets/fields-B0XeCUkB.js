@@ -1,1 +1,0 @@
-const e="2025",t=`耕耘祭 ${e}`,n="Cultivate",a=`${n} ${e}`,s="節目表",o=`查看${s}`,c={eventName:"耕耘祭",eventFullName:t,eventEngFullName:a,program:s,readProgram:o},m="/cultivate-2025/assets/sky-DP69Ds-w.png",v="/cultivate-2025/assets/fields-DmR-rWRU.png";export{c as a,v as f,m as s};

@@ -25,7 +25,7 @@ export function Welcome() {
         </h3>
         <Link to="/program">
           <button
-            className="bg-background text-on-primary font-serif rounded-full text-2xl transition hover:brightness-105 p-4 opacity-0 animate-fade-up-delay-1"
+            className="bg-background text-on-primary font-serif rounded-full text-2xl transition hover:brightness-105 p-4 opacity-0 animate-fade-up-delay-1 cursor-pointer"
           >
             {strings.readProgram}
           </button>

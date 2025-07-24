@@ -1,3 +1,4 @@
+import Menu from '../menu/menu';
 import strings from '../resources/strings';
 import skyImage from '../resources/sky.png';
 import fieldsImage from '../resources/fields.png';
@@ -102,6 +103,5 @@ export default function Program() {
                 <img src={fieldsImage} alt="Fields" className="object-contain -mt-28 pointer-events-none" />
             </div>
         </main>
-
     )
 }

@@ -45,6 +45,7 @@ function Song(props: {
         name: string;
         translatedName?: string;
         artist: string;
+        bandName: string;
         performers: string[][];
     }, index: number
 }) {
@@ -56,7 +57,7 @@ function Song(props: {
                 <h1 className="text-6xl text-on-primary font-bold">
                     {index + 1}
                 </h1>
-                <div>
+                <div className="flex flex-col items-start">
                     {/* Song name & artist */}
                     <h2 className="text-2xl font-bold text-on-primary">
                         {song.name}
@@ -71,6 +72,9 @@ function Song(props: {
                     <p className="text-lg text-on-primary-variant">{song.artist}</p>
                     {/* Performers */}
                     <div className="flex flex-wrap gap-2 mt-2">
+                        <div className="text-md bg-primary-variant text-background rounded-full px-2 py-1 font-serif">
+                            {song.bandName}
+                        </div>
                         {song.performers.map(([position, performerId]) => (
                             <Performer
                                 key={position + '-' + performerId}
@@ -90,7 +94,7 @@ function Song(props: {
 
 export default function Program() {
     return (
-        <div style={{'backgroundImage': `url(${skyImage})`}} className="relative overflow-y-auto w-svw h-svh bg-cover bg-center">
+        <div style={{ 'backgroundImage': `url(${skyImage})` }} className="relative overflow-y-auto w-svw h-svh bg-cover bg-center">
             <div className="absolute w-full h-full flex flex-col">
                 <h3 className="text-2xl lg:text-3xl text-on-primary-variant text-center mt-8 mb-2">
                     {strings.eventFullName}

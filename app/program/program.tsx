@@ -28,11 +28,11 @@ function Performer(props: {
     const { position, performerId } = props;
     const performer = performersJson.find(p => p.id === performerId);
     return (performer &&
-        (<div className="text-md text-on-primary-variant bg-background rounded-full px-2 py-1 font-serif">
+        (<div className="text-md bg-background text-on-primary rounded-full px-2 py-1 font-serif">
             {positionToIcon(position) + ' '}
             {
                 performer.link ?
-                    <a href={performer.link} className="underline" target="_blank">{performer.name}</a>
+                    <a href={performer.link} className="underline text-on-primary-variant" target="_blank">{performer.name}</a>
                     : performer.name
             }
         </div>)

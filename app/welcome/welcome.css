@@ -14,14 +14,15 @@
     }
 }
 
-@keyframes sunrise {
-    from {
-        transform: translateY(150px);
-    }
-
-    to {
-        transform: translateY(0);
-    }
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(32px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 @keyframes notesSweep {
@@ -34,6 +35,24 @@
         clip-path: inset(0 0 0 0);
         opacity: 1;
     }
+}
+
+@keyframes sunrise {
+    from {
+        transform: translateY(150px);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+.animate-fade-up {
+  animation: fadeUp var(--animation-duration-short) cubic-bezier(0.4,0,0.2,1) forwards;
+}
+
+.animate-fade-up-delay-1 {
+  animation: fadeUp var(--animation-duration-short) cubic-bezier(0.4,0,0.2,1) 0.1s forwards;
 }
 
 .animate-fields-brighten {
@@ -50,23 +69,4 @@
 
 .animate-sunrise {
     animation: sunrise var(--animation-duration) ease-out forwards;
-}
-
-@keyframes fadeUp {
-  from {
-    opacity: 0;
-    transform: translateY(32px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.animate-fade-up {
-  animation: fadeUp var(--animation-duration-short) cubic-bezier(0.4,0,0.2,1) forwards;
-}
-
-.animate-fade-up-delay-1 {
-  animation: fadeUp var(--animation-duration-short) cubic-bezier(0.4,0,0.2,1) 0.1s forwards;
 }

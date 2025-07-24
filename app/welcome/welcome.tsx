@@ -17,6 +17,9 @@ export function Welcome() {
         <h1 className="text-7xl md:text-9xl text-center text-on-primary opacity-0 animate-fade-up">
           耕耘季
         </h1>
+        <h3 className="text-3xl md:text-4xl text-center text-on-primary-variant opacity-0 animate-fade-up-delay-1">
+          Cultivate 2025
+        </h3>
         <button
           className="bg-background text-on-primary font-serif rounded-full text-2xl transition hover:brightness-105 p-4 opacity-0 animate-fade-up-delay-1"
         >

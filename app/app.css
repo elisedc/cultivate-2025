@@ -10,6 +10,7 @@
   --color-primary: #E8B14D;
   --color-primary-variant: #C97F4A;
   --color-on-primary: #5C3A2E;
+  --color-on-primary-variant: #B86412;
   --color-secondary: #E8923B;
   --color-secondary-variant: #A5A661;
   --color-on-secondary: #F5E5C3;
@@ -26,6 +27,8 @@ body {
   }
 }
 
-h1 {
+h1,
+h2,
+h3 {
   font-family: var(--font-serif);
 }

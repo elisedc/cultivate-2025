@@ -7,6 +7,7 @@
     "predeploy": "npm run build",
     "deploy": "cp -r build/client/* build/ && cp build/index.html build/404.html && gh-pages -d build",
     "build": "react-router build",
+    "clean": "rm -rf build dist .react-router",
     "dev": "react-router dev",
     "start": "react-router-serve ./build/server/index.js",
     "typecheck": "react-router typegen && tsc"

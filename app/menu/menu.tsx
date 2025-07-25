@@ -19,7 +19,7 @@ function MenuItems(props: { open: boolean, closeMenu: () => void }) {
             {
                 menuItems.map((item, index) => (
                     <Link to={item.link} key={index} onClick={props.closeMenu}>
-                        <h1 className="text-6xl text-color-on-secondary cursor-pointer hover:underline">
+                        <h1 className="text-6xl text-on-secondary cursor-pointer hover:underline">
                             {item.name}
                         </h1>
                     </Link>

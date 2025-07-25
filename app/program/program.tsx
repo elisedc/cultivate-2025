@@ -12,15 +12,15 @@ function Performer(props: {
 }) {
     function positionToIcon(position: string) {
         switch (position) {
-            case 'vocal':
+            case 'v':
                 return <span key={position}>🎤</span>;
-            case 'guitar':
+            case 'eg':
                 return <span key={position}>🎸</span>;
-            case 'bass':
+            case 'b':
                 return <img key={position} src={bassIcon} className="h-5 w-5" />;
-            case 'drums':
+            case 'd':
                 return <span key={position}>🥁</span>;
-            case 'keyboard':
+            case 'kb':
                 return <span key={position}>🎹</span>;
             default:
                 return undefined;

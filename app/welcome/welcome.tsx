@@ -38,7 +38,7 @@ export function Welcome() {
           </Link>
           <Link to="/information">
             <button
-              className="bg-on-primary text-information font-serif rounded-full text-2xl transition hover:brightness-105 p-4 opacity-0 animate-fade-up-delay-1 cursor-pointer"
+              className="bg-on-primary text-on-secondary font-serif rounded-full text-2xl transition hover:brightness-105 p-4 opacity-0 animate-fade-up-delay-1 cursor-pointer"
             >
               {strings.readInformation}
             </button>

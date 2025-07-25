@@ -5,12 +5,12 @@
         "artist": "ヨルシカ",
         "bandName": "夜鹿樂團",
         "performers": [
-            ["vocal", "roo"],
-            ["guitar", "shh"],
-            ["guitar", "sht"],
-            ["keyboard", "mel"],
-            ["bass", "wuc"],
-            ["drums", "dog"]
+            ["v", "roo"],
+            ["eg", "shh"],
+            ["eg", "sht"],
+            ["kb", "mel"],
+            ["b", "wuc"],
+            ["d", "dog"]
         ]
     },
     {
@@ -19,11 +19,11 @@
         "artist": "YOASOBI",
         "bandName": "夜鹿樂團",
         "performers": [
-            ["vocal", "roo"],
-            ["guitar", "che"],
-            ["keyboard", "mel"],
-            ["bass", "hsu"],
-            ["drums", "sio"]
+            ["v", "roo"],
+            ["eg", "che"],
+            ["kb", "mel"],
+            ["b", "hsu"],
+            ["d", "sio"]
         ]
     },
     {
@@ -31,12 +31,12 @@
         "artist": "髭男dism",
         "bandName": "Mirai 未來樂團",
         "performers": [
-            ["vocal", "yeh"],
-            ["guitar", "sht"],
-            ["guitar", "che"],
-            ["keyboard", "mel"],
-            ["bass", "zhe"],
-            ["drums", "dog"]
+            ["v", "yeh"],
+            ["eg", "sht"],
+            ["eg", "che"],
+            ["kb", "mel"],
+            ["b", "zhe"],
+            ["d", "dog"]
         ]
     },
     {
@@ -44,13 +44,13 @@
         "artist": "甜約翰",
         "bandName": "迷幻森林",
         "performers": [
-            ["vocal", "hun"],
-            ["vocal", "yis"],
-            ["guitar", "szu"],
-            ["guitar", "sht"],
-            ["keyboard", "mel"],
-            ["bass", "whu"],
-            ["drums", "dog"]
+            ["v", "hun"],
+            ["v", "yis"],
+            ["eg", "szu"],
+            ["eg", "sht"],
+            ["kb", "mel"],
+            ["b", "whu"],
+            ["d", "dog"]
         ]
     },
     {
@@ -58,11 +58,11 @@
         "artist": "ヨルシカ",
         "bandName": "pink bear 粉紅熊",
         "performers": [
-            ["vocal", "yis"],
-            ["guitar", "shh"],
-            ["keyboard", "daw"],
-            ["bass", "mon"],
-            ["drums", "may"]
+            ["v", "yis"],
+            ["eg", "shh"],
+            ["kb", "daw"],
+            ["b", "mon"],
+            ["d", "may"]
         ]
     },
     {
@@ -70,10 +70,10 @@
         "artist": "ONE OK ROCK",
         "bandName": "光樂團",
         "performers": [
-            ["vocal", "wei"],
-            ["guitar", "pan"],
-            ["bass", "lim"],
-            ["drums", "lic"]
+            ["v", "wei"],
+            ["eg", "pan"],
+            ["b", "lim"],
+            ["d", "lic"]
         ]
     },
     {
@@ -81,13 +81,13 @@
         "artist": "Linkin Park",
         "bandName": "搖滾公園",
         "performers": [
-            ["vocal", "pau"],
-            ["vocal", "wei"],
-            ["guitar", "daw"],
-            ["guitar", "wuh"],
-            ["keyboard", "daw"],
-            ["bass", "won"],
-            ["drums", "hon"]
+            ["v", "pau"],
+            ["v", "wei"],
+            ["eg", "daw"],
+            ["eg", "wuh"],
+            ["kb", "daw"],
+            ["b", "won"],
+            ["d", "hon"]
         ]
     },
     {
@@ -95,10 +95,10 @@
         "artist": "山下達郎",
         "bandName": "週末の不務正樂",
         "performers": [
-            ["vocal/guitar", "yum"],
-            ["keyboard", "mel"],
-            ["bass", "hsu"],
-            ["drums", "wei"]
+            ["v/eg", "yum"],
+            ["kb", "mel"],
+            ["b", "hsu"],
+            ["d", "wei"]
         ]
     },
     {
@@ -106,11 +106,11 @@
         "artist": "Yasuha",
         "bandName": "週末の不務正樂",
         "performers": [
-            ["vocal/guitar", "yum"],
-            ["guitar", "den"],
-            ["keyboard", "mel"],
-            ["bass", "hsu"],
-            ["drums", "wei"]
+            ["v/eg", "yum"],
+            ["eg", "den"],
+            ["kb", "mel"],
+            ["b", "hsu"],
+            ["d", "wei"]
         ]
     },
     {
@@ -118,11 +118,11 @@
         "artist": "藤井風",
         "bandName": "週末の不務正樂",
         "performers": [
-            ["vocal", "sha"],
-            ["guitar", "yum"],
-            ["keyboard", "mel"],
-            ["bass", "way"],
-            ["drums", "wei"]
+            ["v", "sha"],
+            ["eg", "yum"],
+            ["kb", "mel"],
+            ["b", "way"],
+            ["d", "wei"]
         ]
     },
     {
@@ -130,12 +130,12 @@
         "artist": "icyball 冰球樂團",
         "bandName": "週末の不務正樂",
         "performers": [
-            ["vocal", "yeh"],
-            ["guitar", "den"],
-            ["guitar", "yum"],
-            ["keyboard", "mel"],
-            ["bass", "hsu"],
-            ["drums", "wan"]
+            ["v", "yeh"],
+            ["eg", "den"],
+            ["eg", "yum"],
+            ["kb", "mel"],
+            ["b", "hsu"],
+            ["d", "wan"]
         ]
     },
     {
@@ -143,13 +143,13 @@
         "artist": "許富凱 X 血肉果汁機",
         "bandName": "野蠻救星",
         "performers": [
-            ["vocal", "pau"],
-            ["vocal", "fan"],
-            ["guitar", "szu"],
-            ["guitar", "jia"],
-            ["keyboard", "roo"],
-            ["bass", "whu"],
-            ["drums", "dog"]
+            ["v", "pau"],
+            ["v", "fan"],
+            ["eg", "szu"],
+            ["eg", "jia"],
+            ["kb", "roo"],
+            ["b", "whu"],
+            ["d", "dog"]
         ]
     },
     {
@@ -157,11 +157,11 @@
         "artist": "Nightwish",
         "bandName": "冰島伏特加",
         "performers": [
-            ["vocal", "mel"],
-            ["guitar/vocal", "che"],
-            ["keyboard", "daw"],
-            ["bass", "mon"],
-            ["drums", "dog"]
+            ["v", "mel"],
+            ["eg/v", "che"],
+            ["kb", "daw"],
+            ["b", "mon"],
+            ["d", "dog"]
         ]
     },
     {
@@ -169,12 +169,12 @@
         "artist": "Ave Mujica",
         "bandName": "夢想家 Dream walker",
         "performers": [
-            ["vocal", "mel"],
-            ["guitar", "szu"],
-            ["guitar", "jia"],
-            ["keyboard", "yis"],
-            ["bass", "fan"],
-            ["drums", "wei"]
+            ["v", "mel"],
+            ["eg", "szu"],
+            ["eg", "jia"],
+            ["kb", "yis"],
+            ["b", "fan"],
+            ["d", "wei"]
         ]
     },
     {
@@ -182,12 +182,12 @@
         "artist": "ヨルシカ",
         "bandName": "玫瑰小姐",
         "performers": [
-            ["vocal", "wan"],
-            ["guitar", "zhy"],
-            ["guitar", "sht"],
-            ["keyboard", "yis"],
-            ["bass", "hsu"],
-            ["drums", "wei"]
+            ["v", "wan"],
+            ["eg", "zhy"],
+            ["eg", "sht"],
+            ["kb", "yis"],
+            ["b", "hsu"],
+            ["d", "wei"]
         ]
     },
     {
@@ -195,11 +195,11 @@
         "artist": "王艷薇",
         "bandName": "奇異果樂團",
         "performers": [
-            ["vocal", "wen"],
-            ["guitar", "yan"],
-            ["keyboard", "daw"],
-            ["bass", "tan"],
-            ["drums", "zin"]
+            ["v", "wen"],
+            ["eg", "yan"],
+            ["kb", "daw"],
+            ["b", "tan"],
+            ["d", "zin"]
         ]
     },
     {
@@ -207,10 +207,10 @@
         "artist": "胡凱兒",
         "bandName": "廢物先生",
         "performers": [
-            ["vocal", "lic"],
-            ["guitar", "shy"],
-            ["bass", "zhe"],
-            ["drums", "may"]
+            ["v", "lic"],
+            ["eg", "shy"],
+            ["b", "zhe"],
+            ["d", "may"]
         ]
     },
     {
@@ -218,10 +218,10 @@
         "artist": "AKASAKI",
         "bandName": "城市旅人 city traveller",
         "performers": [
-            ["vocal", "sha"],
-            ["guitar", "shy"],
-            ["bass", "tan"],
-            ["drums", "woj"]
+            ["v", "sha"],
+            ["eg", "shy"],
+            ["b", "tan"],
+            ["d", "woj"]
         ]
     },
     {
@@ -229,11 +229,11 @@
         "artist": "Lady Gaga / Bruno Mars",
         "bandName": "月影探險家",
         "performers": [
-            ["vocal/guitar", "cha"],
-            ["vocal", "wan"],
-            ["guitar", "chw"],
-            ["bass", "tan"],
-            ["drums", "zin"]
+            ["v/eg", "cha"],
+            ["v", "wan"],
+            ["eg", "chw"],
+            ["b", "tan"],
+            ["d", "zin"]
         ]
     },
     {
@@ -241,10 +241,10 @@
         "artist": "Benson Boone",
         "bandName": "南方公園",
         "performers": [
-            ["vocal", "cha"],
-            ["guitar", "daw"],
-            ["guitar", "sht"],
-            ["drums", "bei"]
+            ["v", "cha"],
+            ["eg", "daw"],
+            ["eg", "sht"],
+            ["d", "bei"]
         ]
     },
     {
@@ -252,11 +252,11 @@
         "artist": "Bon Jovi",
         "bandName": "南方公園",
         "performers": [
-            ["vocal", "woj"],
-            ["guitar", "daw"],
-            ["guitar", "che"],
-            ["keyboard", "daw"],
-            ["drums", "bei"]
+            ["v", "woj"],
+            ["eg", "daw"],
+            ["eg", "che"],
+            ["kb", "daw"],
+            ["d", "bei"]
         ]
     },
     {
@@ -265,12 +265,12 @@
         "translatedName": "不想離開被窩",
         "bandName": "無樂遊民",
         "performers": [
-            ["vocal", "sha"],
-            ["vocal", "roo"],
-            ["vocal/drums", "wei"],
-            ["vocal", "yeh"],
-            ["guitar", "den"],
-            ["bass", "hsu"]
+            ["v", "sha"],
+            ["v", "roo"],
+            ["v/d", "wei"],
+            ["v", "yeh"],
+            ["eg", "den"],
+            ["b", "hsu"]
         ]
     }
 ]

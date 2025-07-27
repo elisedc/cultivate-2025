@@ -1,5 +1,5 @@
 :root {
-    --animation-duration: 0.2s;
+    --animation-duration: 0.1s;
 }
 
 @keyframes fade-in {
@@ -21,7 +21,7 @@
 }
 
 .icon-dark {
-    filter: brightness(0.3);
+    filter: brightness(3);
 }
 
 @keyframes spin-open {

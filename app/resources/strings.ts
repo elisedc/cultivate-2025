@@ -1,4 +1,4 @@
-const eventName = "耕耘祭";
+const eventName = "耕云祭";
 const eventYear = "2025";
 const eventFullName = `${eventName} ${eventYear}`;
 const eventEngName = "Cultivate";

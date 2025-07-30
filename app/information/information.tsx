@@ -54,7 +54,7 @@ export default function Information() {
                     <a
                         href="https://calendar.app.google/PE62RD1HWoKMbAVp8"
                         target="_blank"
-                        className="text-lg font-serif brightness-90 hover:brightness-80 underline cursor-pointer"
+                        className="text-lg font-serif text-white brightness-90 hover:brightness-80 underline cursor-pointer"
                     >
                         {strings.eventAddToCalendar}
                     </a>
